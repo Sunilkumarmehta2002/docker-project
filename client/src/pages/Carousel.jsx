@@ -65,31 +65,31 @@ function SimpleCarousel() {
   }
 
   return (
-    <div className="block m-10">
-      <Slider {...settings}>
-        <div>
-          <img
-            src="../src/assets/sponsor2.jpg"
-            alt="slide1"
-            className="w-full max-h-200 object-cover rounded-md transition-transform duration-300 transform hover:scale-110"
-          />
-        </div>
-        <div>
-          <img
-            src="../src/assets/sponsorship1.jpg"
-            alt="slide2"
-            className="w-full max-h-200 object-cover rounded-md transition-transform duration-300 transform hover:scale-110"
-          />
-        </div>
-        <div>
-          <img
-            src="../src/assets/events.jpg"
-            alt="slide3"
-            className="w-full max-h-200 object-cover rounded-md transition-transform duration-300 transform hover:scale-110"
-          />
-        </div>
-      </Slider>
-    </div>
+    // <div className="block m-10">
+    //   <Slider {...settings}>
+    //     <div>
+    //       <img
+    //         src="../src/assets/sponsor2.jpg"
+    //         alt="slide1"
+    //         className="w-full max-h-200 object-cover rounded-md transition-transform duration-300 transform hover:scale-110"
+    //       />
+    //     </div>
+    //     <div>
+    //       <img
+    //         src="../src/assets/sponsorship1.jpg"
+    //         alt="slide2"
+    //         className="w-full max-h-200 object-cover rounded-md transition-transform duration-300 transform hover:scale-110"
+    //       />
+    //     </div>
+    //     <div>
+    //       <img
+    //         src="../src/assets/events.jpg"
+    //         alt="slide3"
+    //         className="w-full max-h-200 object-cover rounded-md transition-transform duration-300 transform hover:scale-110"
+    //       />
+    //     </div>
+    //   </Slider>
+    // </div>
   );
 }
 
