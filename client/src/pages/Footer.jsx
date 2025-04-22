@@ -84,7 +84,7 @@ function Footer() {
             <a href="https://flowbite.com/" className="hover:underline">
               Pro-vertos Management System
             </a>
-            . @All Rights Reserved.
+            . All Rights Reserved.
           </span>
           <div className="flex mt-4 sm:justify-center sm:mt-0">
             <a
