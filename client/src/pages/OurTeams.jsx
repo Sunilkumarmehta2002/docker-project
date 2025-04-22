@@ -23,7 +23,7 @@ const OurTeam = () => {
 
           <TeamMember
             imgSrc="https://i.ibb.co/YRwv4Z9/SUNIL.png"
-            name="Vikas"
+            name="Sunil Kumar Mehta"
             role="Founder & Developer"
             description="Born developer & technical strategy of the  platform and brand "
           />
