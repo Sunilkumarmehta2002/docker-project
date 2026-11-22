@@ -24,7 +24,7 @@ services:
     ports:
       - "4000:4000"
     environment:
-      - MONGO_URL=mongodb+srv://sunilkumarmehta:S6X56ipXTDoS2cUH@fitmitra.bssymqz.mongodb.net/?retryWrites=true
+      - MONGO_URL=${MONGO_URL:?Set MONGO_URL in .env (see .env.example)}
     networks:
       - fitmitra_network
 
